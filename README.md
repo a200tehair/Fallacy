@@ -45,6 +45,7 @@ have fun i guess lol
 Here's some code examples
 
 Alphabet printer
+
 startscr
 
 def a
@@ -65,6 +66,7 @@ markln loop
 endscr
 
 Hello World
+
 startscr
 
 out 72 101 108 108 111 32 87 111 114 108 100 ascii end
