@@ -1,0 +1,7 @@
+startscr
+
+def f
+init f 69
+out f ascii end
+
+endscr
