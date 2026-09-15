@@ -41,3 +41,32 @@ This language sucks, please do not write Fallacy DOOM in it or I will personally
 
 
 have fun i guess lol
+
+Here's some code examples
+
+Alphabet printer
+startscr
+
+def a
+init a 26
+
+def b
+init b 65
+
+markln loop
+  out b ascii end
+  addvar b 1
+  subvar a 1
+  chk0 a
+  ify
+    jmp loop
+  endbl
+
+endscr
+
+Hello World
+startscr
+
+out 72 101 108 108 111 32 87 111 114 108 100 ascii end
+
+endscr
