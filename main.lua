@@ -86,7 +86,6 @@ while i <= #tokens do
         end
         if f == false then
             print("in script: found undeclared variable " .. name)
-            print("blat")
             goto close
         end
         i = i + 2
@@ -121,7 +120,7 @@ while i <= #tokens do
             goto close
         end
 
-        if flags[prevFlagSet] == false then
+        if flags[prevFlagSet] == true then
             i = stp
         end
     elseif t == "ifn" then
@@ -141,7 +140,7 @@ while i <= #tokens do
             goto close
         end
 
-        if flags[prevFlagSet] == true then
+        if flags[prevFlagSet] == false then
             i = stp
         end
 
