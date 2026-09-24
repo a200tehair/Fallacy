@@ -1,6 +1,9 @@
 # Fallacy
 An esolang made within ~1 day
+
 Operates token by token, as opposed to line by line
+
+Should've said but to run a script, you run it in a terminal and provide the interpreter script with an argument for what you want to run (E.G. luajit interpreter.lua script.fa)
 
 This is a rather simple esolang, only having 16 keywords
 I'll keep it brief
