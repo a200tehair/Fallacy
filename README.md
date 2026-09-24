@@ -1,6 +1,8 @@
 # Fallacy
 An esolang made within ~1 day
 
+First in the Esolangs Alphabet
+
 Operates token by token, as opposed to line by line
 
 To run a script, you run it in a terminal and provide the interpreter script with an argument for what you want to run (E.G. luajit main.lua script.fa)
