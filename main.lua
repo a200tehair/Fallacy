@@ -9,7 +9,7 @@ local dataF = script:read("a")
 
 local token = ""
 for i = 1, #dataF do
-    if dataF:sub(i, i) == " " or dataF:sub(i, i) == "\n" then
+    if dataF:sub(i, i) == ' ' or dataF:sub(i, i) == '\n' or dataF:sub(i, i) == '\r' then
         if token ~= "" then table.insert(tokens, token) token = "" end
     else
         token = token .. dataF:sub(i, i)
